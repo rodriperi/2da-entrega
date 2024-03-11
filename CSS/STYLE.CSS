@@ -1,0 +1,147 @@
+/*
+ ELEMENTO{
+    propiedad: valor;
+    */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+ body{ background-color:paleturquoise;}
+body {
+
+    text-align: center;
+}
+
+@media only screen and (max-width:425px ) {
+    body {
+        background-color: peru;
+    }
+}
+
+@media only screen and (min-width:426px ) and (max-width:768px ) {
+    body {
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width:769px ) and (max-width:1100px ) {
+    body {
+        background-color: palevioletred;
+    }
+}
+
+
+
+h1:hover {
+    /*  */
+    color: red;
+    background-color: white;
+
+}
+
+H1 {
+    color: GREEN
+}
+
+LI {
+    COlor: PURPLE
+}
+
+TD {
+    COLOR: GREEN
+}
+
+H2 {
+    COLOR: GREEN
+}
+
+H3 {
+    COLOR: PURPLE
+}
+
+H4 {
+    COLOR: PURPLE
+}
+
+H5 {
+    COLOR: PURPLE
+}
+
+header ul li a {
+    text-decoration: none;
+    display: flex;
+    margin: 10px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+}
+
+header a {
+    display: flex;
+    margin: 10px;
+}
+
+header img {
+    justify-content: flex-start;
+}
+
+.pestanias ul {
+    display: flex;
+
+}
+
+.grid-container {
+    border: 1px solid red;
+
+    /* display :grid; */
+    display: grid;
+    /*grid-template-columns*/
+    grid-template-columns: 100%;
+    /*grid-template-rows*/
+    grid-template-rows: 1700%;
+    /*row-gap
+        column-gap*/
+    /*row-gap:10px;
+        column-gap:25px;*/
+    /* gap:15px; */
+}
+
+.grid-item {
+    border: 15px solid yellowgreen;
+    margin: 15px;
+}
+
+.grid-item-1 {
+    background-color: yellow;
+    grid-column: 1;
+    width: 100%;
+
+
+}
+
+.grid-item-2 {
+    background-color: yellowgreen;
+    grid-column: 1;
+    width: 100%;
+}
+
+.grid-item-3 {
+
+    background-color: yellowgreen;
+    grid-column: 100%;
+
+
+}
+
+.grid-item-4 {
+
+    background-color: orangered;
+    grid-column: 100%;
+
+}
