@@ -3,31 +3,40 @@
     propiedad: valor;
     */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
 }
- body{ background-color:paleturquoise;}
+
+body {
+    background-color: paleturquoise;
+}
+
 body {
 
     text-align: center;
 }
 
-@media only screen and (max-width:425px ) {
+@media only screen and (max-width:425px) {
     body {
         background-color: peru;
     }
 }
 
-@media only screen and (min-width:426px ) and (max-width:768px ) {
+@media only screen and (min-width:426px) and (max-width:768px) {
     body {
         background-color: red;
     }
 }
 
-@media only screen and (min-width:769px ) and (max-width:1100px ) {
+@media only screen and (min-width:769px) and (max-width:1100px) {
     body {
         background-color: palevioletred;
     }
