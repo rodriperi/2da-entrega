@@ -34,17 +34,10 @@ header a {
 
 header img {
     justify-content: flex-start;
-    align-items:start;
-}
-body {
-    background-color: paleturquoise;
+    align-items: start;
 }
 
-body {
-
-    text-align: center;
-}
-
+body {    background-color: paleturquoise;text-align: center;}
 
 h1:hover {
     /*  */
@@ -83,9 +76,6 @@ h5 {
     COLOR: PURPLE
 }
 
-
-
-
 .pestanias a {
     text-align: center;
 }
@@ -119,7 +109,7 @@ h5 {
 .grid-item-1 {
     background-color: yellow;
     grid-column: 100%;
-    
+
 
 }
 
@@ -136,28 +126,7 @@ h5 {
 
 }
 
-.grid-item-4 {
-
-    background-color: orangered;
-    grid-column: 100%;
-
-
-}
-
-@media only screen and (max-width:425px) {
-    body {
-        background-color: peru;
-    }
-}
-
-@media only screen and (min-width:426px) and (max-width:768px) {
-    body {
-        background-color: red;
-    }
-}
-
-@media only screen and (min-width:769px) and (max-width:1100px) {
-    body {
-        background-color: palevioletred;
-    }
-}
+.grid-item-4 {background-color: orangered; grid-column: 100%;}
+@media only screen and (max-width:425px) {body {background-color: peru;}}
+@media only screen and (min-width:426px) and (max-width:768px) {body {background-color: red;}}
+@media only screen and (min-width:769px) and (max-width:1100px) { body {background-color: palevioletred;}}
