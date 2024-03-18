@@ -15,72 +15,6 @@ header {
     padding: 15px;
 }
 
-body {
-    background-color: paleturquoise;
-}
-
-body {
-
-    text-align: center;
-}
-
-@media only screen and (max-width:425px) {
-    body {
-        background-color: peru;
-    }
-}
-
-@media only screen and (min-width:426px) and (max-width:768px) {
-    body {
-        background-color: red;
-    }
-}
-
-@media only screen and (min-width:769px) and (max-width:1100px) {
-    body {
-        background-color: palevioletred;
-    }
-}
-
-
-
-h1:hover {
-    /*  */
-    color: red;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-
-}
-
-H1 {
-    color: GREEN
-}
-
-LI {
-    COlor: PURPLE
-}
-
-TD {
-    COLOR: GREEN
-}
-
-H2 {
-    COLOR: GREEN
-}
-
-H3 {
-    COLOR: PURPLE
-}
-
-H4 {
-    COLOR: PURPLE
-}
-
-H5 {
-    COLOR: PURPLE
-}
-
 header ul li a {
     text-decoration: none;
     display: flex;
@@ -100,6 +34,60 @@ header a {
 
 header img {
     justify-content: flex-start;
+    align-items:start;
+}
+body {
+    background-color: paleturquoise;
+}
+
+body {
+
+    text-align: center;
+}
+
+
+h1:hover {
+    /*  */
+    color: red;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    color: GREEN
+}
+
+li {
+    COlor: PURPLE
+}
+
+td {
+    COLOR: GREEN
+}
+
+h2 {
+    COLOR: GREEN
+}
+
+h3 {
+    COLOR: PURPLE
+}
+
+h4 {
+    COLOR: PURPLE
+}
+
+h5 {
+    COLOR: PURPLE
+}
+
+
+
+
+.pestanias a {
+    text-align: center;
 }
 
 .pestanias ul {
@@ -113,9 +101,9 @@ header img {
     /* display :grid; */
     display: grid;
     /*grid-template-columns*/
-    grid-template-columns: 100%;
+    grid-template-columns: 1;
     /*grid-template-rows*/
-    grid-template-rows: 1900%;
+    grid-template-rows: 12;
     /*row-gap
         column-gap*/
     /*row-gap:10px;
@@ -130,16 +118,14 @@ header img {
 
 .grid-item-1 {
     background-color: yellow;
-    grid-column: 1;
-    width: 100%;
-
+    grid-column: 100%;
+    
 
 }
 
 .grid-item-2 {
     background-color: yellowgreen;
-    grid-column: 1;
-    width: 100%;
+    grid-column: 100%;
 }
 
 .grid-item-3 {
@@ -155,4 +141,23 @@ header img {
     background-color: orangered;
     grid-column: 100%;
 
+
+}
+
+@media only screen and (max-width:425px) {
+    body {
+        background-color: peru;
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width:768px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:1100px) {
+    body {
+        background-color: palevioletred;
+    }
 }
