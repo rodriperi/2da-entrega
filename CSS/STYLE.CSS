@@ -4,8 +4,8 @@
     */
 
 * {
-    margin: 1px;
-    padding: 1px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -13,6 +13,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 15px;
+    height: auto;
 }
 
 header ul li a {
@@ -35,6 +36,7 @@ header a {
 header img {
     justify-content: flex-start;
     align-items: start;
+    height: auto;
 }
 
 body {    background-color: paleturquoise;text-align: center;}
@@ -93,7 +95,7 @@ h5 {
     /*grid-template-columns*/
     grid-template-columns: 1;
     /*grid-template-rows*/
-    grid-template-rows: 12;
+    
     /*row-gap
         column-gap*/
     /*row-gap:10px;
@@ -108,10 +110,7 @@ h5 {
 
 .grid-item-1 {
     background-color: yellow;
-    grid-column: auto;
-
-
-}
+    grid-column: 100%;}
 
 .grid-item-2 {
     background-color: yellowgreen;
@@ -127,6 +126,7 @@ h5 {
 }
 
 .grid-item-4 {background-color: orangered; grid-column: 100%;}
-@media only screen and (max-width:425px) {body {background-color: peru;}}
+
+@media only screen and (max-width:425px ) {body {background-color: peru;} } 
 @media only screen and (min-width:426px) and (max-width:768px) {body {background-color: red;}}
 @media only screen and (min-width:769px) and (max-width:1100px) { body {background-color: palevioletred;}}
